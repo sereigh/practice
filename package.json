@@ -1,10 +1,11 @@
 {
-  "name": "test",
+  "name": "practice",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "client": "parcel watch client/src/index.js",
+    "watch": "parcel watch client/src/index.js",
+    "client": "npx live-server",
     "server": "nodemon --watch server"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "live-server": "^1.2.1",
     "mysql": "^2.18.1",
     "path": "^0.12.7",
     "react": "^17.0.1",
