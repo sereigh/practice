@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "parcel watch client/src/index.js",
     "client": "npx live-server",
-    "server": "nodemon --watch server"
+    "server": "nodemon --watch server",
+    "batch": "mysql -u root -p < database/schema.sql"
   },
   "keywords": [],
   "author": "",
