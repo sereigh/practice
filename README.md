@@ -1,6 +1,6 @@
 # Practice Repo
 
-This repository is a bare bones repo to get you started practicing without the complications of setting up a complier & bundler.
+Bare-bones repo to practice without having to setup a complier & bundler.
 
 ## What's Included
 
